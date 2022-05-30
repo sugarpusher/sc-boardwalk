@@ -1,27 +1,55 @@
 //COLORS
 
-$blue: #24b1ff;
-$darkblue: #0D4D85;
-$yellow: #efd96f;
-$red: #f55858;
-$green: #7ad69c;
-$error: #FB0007;
-//$green: #6AD792; - from sketch
+// $blue: #24b1ff;
+// $darkblue: #0D4D85;
+// $yellow: #efd96f;
+// $red: #f55858;
+// $green: #7ad69c;
+// $error: #FB0007;
+// //$green: #6AD792; - from sketch
 
-// SC variables 
+// // SC variables 
 
-$white: #fafafa;
-$grey1: #f2f2f2;
-$grey2: #bfbfbf;
-$grey3: #666666;
-$grey4: #333333;
-$grey5: #191919;
-//$grey6: #9b9b9b;
+// $white: #fafafa;
+// $grey1: #f2f2f2;
+// $grey2: #bfbfbf;
+// $grey3: #666666;
+// $grey4: #333333;
+// $grey5: #191919;
+// //$grey6: #9b9b9b;
 
-// $grey1b: #e6e6e6;
-// $grey3b: #acacac;
-// $green2: #23b460;
-// $red2: #d0021b;
+// // $grey1b: #e6e6e6;
+// // $grey3b: #acacac;
+// // $green2: #23b460;
+// // $red2: #d0021b;
+
+
+/////////////////////
+
+:root {
+	--blue: #24b1ff;
+	--darkblue: #0D4D85;
+	--yellow: #efd96f;
+	--red: #f55858;
+	--green: #7ad69c;
+	--error: #FB0007;
+	//--green: #6AD792; - from sketch
+
+	// SC variables 
+
+	--white: #fafafa;
+	--grey1: #f2f2f2;
+	--grey2: #bfbfbf;
+	--grey3: #666666;
+	--grey4: rgb(51,51,51);
+	--grey5: #191919;
+	//--grey6: #9b9b9b;
+
+	// --grey1b: #e6e6e6;
+	// --grey3b: #acacac;
+	// --green2: #23b460;
+	// --red2: #d0021b;
+}
 
 .baseShadow {
     box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.5);

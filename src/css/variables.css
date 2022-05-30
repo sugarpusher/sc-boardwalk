@@ -1,3 +1,18 @@
+:root {
+  --blue: #24b1ff;
+  --darkblue: #0D4D85;
+  --yellow: #efd96f;
+  --red: #f55858;
+  --green: #7ad69c;
+  --error: #FB0007;
+  --white: #fafafa;
+  --grey1: #f2f2f2;
+  --grey2: #bfbfbf;
+  --grey3: #666666;
+  --grey4: rgb(51,51,51);
+  --grey5: #191919;
+}
+
 .baseShadow {
   box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.5);

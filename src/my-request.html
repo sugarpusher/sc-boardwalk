@@ -38,7 +38,7 @@
     <div id="app">
       <div class="bg-light-page">
         <div class="container">
-          <div class="avatarheader flex">
+          <div class="avatarheader flex pb-12 pr-12">
             <div class="flex">
               <a class="relative mr-12" href="#">
                 <img
@@ -56,44 +56,58 @@
               </div>
             </div>
             <a
-              class="icon-right icon icon-exit-grey icon-small"
+              class="icon-right icon icon-back-grey icon-small"
               href="#"
               onclick="history.go(-1)"
             ></a>
           </div>
         </div>
         <div class="container">
-          <a class="marketplace-big flex" href="marketplace.html">
-            <div class="mkt-name flex">
+          <div class="marketplace-title">
+            <div
+              class="mkt-name flex justify-content-start align-items-center flex-row"
+            >
               <h2 class="grey4 m-0">
-                Settler
+                <span class="pr-24">Settler</span>
               </h2>
-              <p class="small-light grey3 m-0">844 deals completed</p>
+              <a class="small-bold blue under-dash" href="#">i</a>
             </div>
-            <div class="icon-right icon icon-next-grey icon-small"></div>
-          </a>
+          </div>
         </div>
         <div class="container">
-          <a class="marketplace-big flex" href="marketplace.html">
-            <div class="mkt-name flex">
-              <h2 class="grey4 m-0">
-                ScCommShare
-              </h2>
-              <p class="small-light grey3 m-0">77 deals completed</p>
+          <form class="dialog" id="dialog-request-form">
+            <a href="#" class="icon icon-right icon-close-grey icon-small"></a>
+            <div class="dialog-content">
+              <div class="input-group">
+                <input id="new-request-item" type="text" required />
+                <label for="new-request-item">What are you looking for?</label>
+              </div>
+              <div class="new-request-amount-wrapper">
+                <div class="input-group mt-32 g-15">
+                  <input
+                    id="new-request-amount"
+                    class="h4 yellow"
+                    type="text"
+                    required
+                  />
+                  <label for="new-request-amount">
+                    What would you like to offer?
+                  </label>
+                </div>
+                <div class="fee-amt mt-12">
+                  + 0.5 DAI fee
+                </div>
+              </div>
             </div>
-            <div class="icon-right icon icon-next-grey icon-small"></div>
-          </a>
-        </div>
-        <div class="container">
-          <a class="marketplace-big flex" href="marketplace.html">
-            <div class="mkt-name flex">
-              <h2 class="grey4 m-0">
-                ScSwag
-              </h2>
-              <p class="small-light grey3 m-0">22330 deals completed</p>
+            <div class="dialog-footer relative">
+              <button
+                class="btn-icon icon-next-white bg-blue"
+                type="button"
+                name="new"
+                onclick="window.location.href='my-request-input-valid.html';"
+              ></button>
             </div>
-            <div class="icon-right icon icon-next-grey icon-small"></div>
-          </a>
+          </form>
         </div>
       </div>
     </div>

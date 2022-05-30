@@ -36,25 +36,38 @@
   </head>
   <body>
     <div id="app">
-      <div class="bg-white">
+      <div class="bg-light-page">
+        <div class="new-request-wrapper">
+          <button
+            class="btn-icon icon-new-blue bg-white"
+            type="button"
+            name="new"
+            onclick="window.location.href='my-request.html';"
+          ></button>
+        </div>
         <div class="container">
           <div class="avatarheader flex pb-12 pr-12">
             <div class="flex">
-              <a class="relative btn-icon" href="#">
-                <img src="assets/imgs/Frank.png" class="avatar normal pr-12" />
+              <a class="relative mr-12" href="#">
+                <img
+                  src="assets/imgs/Frank.png"
+                  class="avatar btn-icon normal round"
+                />
               </a>
               <div>
                 <a href="#" class="user">
                   Frank
                 </a>
-                <h4 class="yellow">
+                <a class="h4 yellow" href="#">
                   44 DAI
-                </h4>
+                </a>
               </div>
             </div>
-            <a class="icon-right btn-icon" href="#">
-              <img src="assets/imgs/icon_arrowleft_stick_grey3.png" />
-            </a>
+            <a
+              class="icon-right icon icon-back-grey icon-small"
+              href="#"
+              onclick="history.go(-1)"
+            ></a>
           </div>
         </div>
         <div class="container">
@@ -76,17 +89,16 @@
                 <p class="item-title">
                   A meatball sub from Fred's, NY
                 </p>
-                <span class="replies flex align-items-center mr--5">
+                <a class="replies flex align-items-center mr--5" href="#">
                   <span class="small-bold grey4">1</span>
-                  <img src="assets/imgs/icon_reply_grey4.png" />
-                </span>
+                </a>
               </div>
               <div class="date mt-2 smallest-light grey2">
                 Yesterday, 18:21
               </div>
               <div class="item-bottom flex flex-row align-items-start">
                 <div class="requester-info flex justify-content-start">
-                  <img src="assets/imgs/Harry.png" class="avatar pr-12" />
+                  <img src="assets/imgs/Harry.png" class="avatar mr-12 round" />
                   <a class="small-bold blue" href="#">
                     <span class="handle">Harry Rumble</span>
                     <span class="dot"></span>
@@ -104,17 +116,16 @@
                 <p class="item-title">
                   Dogwalker @ Paris today - 15:00
                 </p>
-                <span class="replies flex align-items-center mr--5">
+                <a class="replies flex align-items-center mr--5" href="#">
                   <span class="small-bold grey4">0</span>
-                  <img src="assets/imgs/icon_reply_grey4.png" />
-                </span>
+                </a>
               </div>
               <div class="date mt-2 smallest-light grey2">
                 Yesterday, 18:21
               </div>
               <div class="item-bottom flex flex-row align-items-start">
                 <div class="requester-info flex justify-content-start">
-                  <img src="assets/imgs/Sally.png" class="avatar pr-12" />
+                  <img src="assets/imgs/Sally.png" class="avatar mr-12 round" />
                   <a class="small-bold blue" href="#">
                     <span class="handle">Sally Singer</span>
                     <span class="dot"></span>
@@ -132,17 +143,44 @@
                 <p class="item-title">
                   Looking for a ride from downtown LA (Grand - 9th av) to LAX
                 </p>
-                <span class="replies flex align-items-center mr--5">
+                <a class="replies flex align-items-center mr--5" href="#">
                   <span class="small-bold grey4">4</span>
-                  <img src="assets/imgs/icon_reply_grey4.png" />
-                </span>
+                </a>
               </div>
               <div class="date mt-2 smallest-light grey2">
                 Yesterday, 18:21
               </div>
               <div class="item-bottom flex flex-row align-items-start">
                 <div class="requester-info flex justify-content-start">
-                  <img src="assets/imgs/Frank.png" class="avatar pr-12" />
+                  <img src="assets/imgs/Frank.png" class="avatar mr-12 round" />
+                  <a class="small-bold blue" href="#">
+                    <span class="handle">Frank</span>
+                    <span class="dot"></span>
+                    <span class="rep-amt">4 SWR</span>
+                  </a>
+                </div>
+                <div class="offer-amt align-right">
+                  <div class="smallest-bold yellow">DAI</div>
+                  <div class="body-bold yellow">5</div>
+                </div>
+              </div>
+            </li>
+
+            <li class="item">
+              <div class="item-info flex align-items-start">
+                <p class="item-title">
+                  1/2 pound roasted Coffee beans
+                </p>
+                <a class="replies flex align-items-center mr--5" href="#">
+                  <span class="small-bold grey4">2</span>
+                </a>
+              </div>
+              <div class="date mt-2 smallest-light grey2">
+                Yesterday, 18:21
+              </div>
+              <div class="item-bottom flex flex-row align-items-start">
+                <div class="requester-info flex justify-content-start">
+                  <img src="assets/imgs/Frank.png" class="avatar mr-12 round" />
                   <a class="small-bold blue" href="#">
                     <span class="handle">Frank</span>
                     <span class="dot"></span>
