@@ -38,6 +38,8 @@ body {
 
 #app {
 	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
 	> div {
 		min-height: 100vh;
 	}
@@ -485,7 +487,7 @@ button {
 	float: right;	
 	border-radius: 50%;	
 }
-.new-request-wrapper {
+.overlay-btn-wrapper {
 	position: fixed;
 	top: 0;
     bottom: 0;
@@ -496,7 +498,7 @@ button {
 	display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    padding: 60px 40px;
+    padding: 60px 70px;
 }
 .avatar {
     width: 100%;
