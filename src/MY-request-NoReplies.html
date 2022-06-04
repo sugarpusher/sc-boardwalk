@@ -75,39 +75,49 @@
           </div>
         </div>
         <div class="container">
-          <form class="dialog" id="dialog-request-form">
-            <a href="#" class="icon icon-right icon-close-grey icon-small"></a>
-            <div class="dialog-content">
-              <div class="input-group">
-                <input id="new-request-item" type="text" required />
-                <label for="new-request-item">What are you looking for?</label>
+          <div class="dialog">
+            <a
+              href="#"
+              class="icon icon-right icon-close-grey icon-small z-100"
+            ></a>
+            <div class="dialog-content dash-bottom">
+              <p class="body-detail">
+                Translate my 1 page manifesto from ENG to NL?
+              </p>
+              <div class="date mt-2 smallest-light grey2">
+                Yesterday, 18:21
               </div>
-              <div class="new-request-amount-wrapper">
-                <div class="input-group mt-32 g-15">
-                  <input
-                    id="new-request-amount"
-                    class="h4 yellow"
-                    type="text"
-                    required
+              <div class="mt-12 flex flex-row align-items-start">
+                <div class="requester-info flex justify-content-start">
+                  <img
+                    src="assets/imgs/Frank.png"
+                    class="avatar round w-40px"
                   />
-                  <label for="new-request-amount">
-                    What would you like to offer?
-                  </label>
+                  <a class="small-bold grey4" href="#">
+                    <span class="handle">Frank</span>
+                    <span class="dot bg-grey4"></span>
+                    <span class="rep-amt">1 SWR</span>
+                  </a>
                 </div>
-                <div class="fee-amt mt-12">
-                  + 0.5 DAI fee
+                <div class="offer-amt align-right">
+                  <div class="smallest-bold yellow">DAI</div>
+                  <div class="body-bold yellow">33</div>
                 </div>
               </div>
             </div>
-            <div class="dialog-footer relative align-right">
-              <button
-                class="btn-icon icon-next-white bg-blue"
-                type="button"
-                name="new"
-                onclick="window.location.href='my-request-input-valid.html';"
-              ></button>
+            <div
+              class="dialog-footer relative flex align-items-center justify-content-center py-38"
+            >
+              <p class="smallest-light grey2 align-center">
+                No replies yet
+              </p>
             </div>
-          </form>
+          </div>
+        </div>
+        <div class="container align-center">
+          <button role="button" class="error small-bold mt-50">
+            cancel this request
+          </button>
         </div>
       </div>
     </div>

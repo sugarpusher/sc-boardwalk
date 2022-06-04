@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" href="/favicon.ico" /> -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/imgs/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/imgs/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/imgs/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="assets/imgs/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Decentralized Marketplaces" />
+    <link rel="apple-touch-icon" href="assets/imgs/favicon/icon-192x192.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="manifest" href="/manifest.json" /> -->
+    <title>Swarm City - Marketplace</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="bg-light-page">
+        <div class="overlay-btn-wrapper container">
+          <button
+            class="btn-icon icon-new-blue bg-white"
+            type="button"
+            name="new"
+            onclick="window.location.href='my-request.html';"
+          ></button>
+        </div>
+        <div class="sticky t-0 bg-light-page w-100 z-100">
+          <div class="container">
+            <div class="avatarheader flex pb-12 pr-12">
+              <div class="flex">
+                <a class="relative mr-12" href="#">
+                  <img
+                    src="assets/imgs/Tom.png"
+                    class="avatar btn-icon normal round"
+                  />
+                </a>
+                <div>
+                  <a href="#" class="user">
+                    Tom
+                  </a>
+                  <a class="h4 yellow" href="#">
+                    44 DAI
+                  </a>
+                </div>
+              </div>
+              <a
+                class="icon-right icon icon-back-grey icon-small"
+                href="#"
+                onclick="history.go(-1)"
+              ></a>
+            </div>
+          </div>
+          <div class="container relative">
+            <div class="marketplace-title">
+              <div
+                class="mkt-name flex justify-content-start align-items-center flex-row"
+              >
+                <h2 class="grey4 m-0">
+                  <span class="pr-24">Settler</span>
+                </h2>
+                <a class="small-bold blue under-dash" href="#">i</a>
+              </div>
+            </div>
+            <div
+              class="scroll-active-count small-bold blue absolute flex align-items-center"
+            >
+              1 active
+              <img src="./assets/imgs/icon_next_blue.png" />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <ul class="marketplace-items">
+            <li>
+              <a class="item" href="MY-request-NoReplies.html">
+                <div class="flex align-items-start">
+                  <p class="item-title grey4">
+                    Translate my 1 page manifesto from ENG to NL?
+                  </p>
+                  <div class="replies flex align-items-center mr--5 g-0">
+                    <span class="small-bold grey4">0</span>
+                    <img src="assets/imgs/icon_reply_grey4.png" />
+                    <img src="assets/imgs/Tom.png" />
+                  </div>
+                </div>
+                <div class="date mt-2 smallest-light grey2">
+                  Yesterday, 18:21
+                </div>
+                <div class="mt-6 flex flex-row align-items-start">
+                  <div class="requester-info flex justify-content-start g-0">
+                    <img
+                      src="assets/imgs/Frank.png"
+                      class="avatar mr-12 round"
+                    />
+                    <div>
+                      <div class="small-bold blue">
+                        <span class="handle">Frank</span>
+                        <span class="dot"></span>
+                        <span class="rep-amt">1 SWR</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="offer-amt align-right">
+                    <div class="smallest-bold yellow">DAI</div>
+                    <div class="body-bold yellow">33</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <ul class="marketplace-items">
+            <li>
+              <a class="item" href="#">
+                <div class="item-info flex align-items-start">
+                  <p class="item-title grey4">
+                    A meatball sub from Fred's, NY
+                  </p>
+                  <div class="replies flex align-items-center mr--5">
+                    <span class="small-bold grey4">1</span>
+                  </div>
+                </div>
+                <div class="date mt-2 smallest-light grey2">
+                  Yesterday, 18:21
+                </div>
+                <div class="mt-6 flex flex-row align-items-start">
+                  <div class="requester-info flex justify-content-start g-0">
+                    <img
+                      src="assets/imgs/Harry.png"
+                      class="avatar mr-12 round"
+                    />
+                    <div class="small-bold blue">
+                      <span class="handle">Harry Rumble</span>
+                      <span class="dot"></span>
+                      <span class="rep-amt">4 SWR</span>
+                    </div>
+                  </div>
+                  <div class="offer-amt align-right">
+                    <div class="smallest-bold yellow">DAI</div>
+                    <div class="body-bold yellow">5</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item" href="request-NoReplies.html">
+                <div class="item-info flex align-items-start">
+                  <p class="item-title grey4">
+                    Dogwalker @ Paris today - 15:00
+                  </p>
+                  <div class="replies flex align-items-center mr--5">
+                    <span class="small-bold grey4">0</span>
+                  </div>
+                </div>
+                <div class="date mt-2 smallest-light grey2">
+                  Yesterday, 18:21
+                </div>
+                <div class="mt-6 flex flex-row align-items-start">
+                  <div class="requester-info flex justify-content-start g-0">
+                    <img
+                      src="assets/imgs/Sally.png"
+                      class="avatar mr-12 round"
+                    />
+                    <div class="small-bold blue">
+                      <span class="handle">Sally Singer</span>
+                      <span class="dot"></span>
+                      <span class="rep-amt">1 SWR</span>
+                    </div>
+                  </div>
+                  <div class="offer-amt align-right">
+                    <div class="smallest-bold yellow">DAI</div>
+                    <div class="body-bold yellow">12</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item" href="#">
+                <div class="item-info flex align-items-start">
+                  <p class="item-title grey4">
+                    Looking for a ride from downtown LA (Grand - 9th av) to LAX
+                  </p>
+                  <div class="replies flex align-items-center mr--5">
+                    <span class="small-bold grey4">4</span>
+                  </div>
+                </div>
+                <div class="date mt-2 smallest-light grey2">
+                  Yesterday, 18:21
+                </div>
+                <div class="mt-6 flex flex-row align-items-start">
+                  <div class="requester-info flex justify-content-start g-0">
+                    <img
+                      src="assets/imgs/Frank.png"
+                      class="avatar mr-12 round"
+                    />
+                    <div class="small-bold blue">
+                      <span class="handle">Frank</span>
+                      <span class="dot"></span>
+                      <span class="rep-amt">4 SWR</span>
+                    </div>
+                  </div>
+                  <div class="offer-amt align-right">
+                    <div class="smallest-bold yellow">DAI</div>
+                    <div class="body-bold yellow">5</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item" href="#">
+                <div class="item-info flex align-items-start">
+                  <p class="item-title grey4">
+                    1/2 pound roasted Coffee beans
+                  </p>
+                  <div class="replies flex align-items-center mr--5">
+                    <span class="small-bold grey4">2</span>
+                  </div>
+                </div>
+                <div class="date mt-2 smallest-light grey2">
+                  Yesterday, 18:21
+                </div>
+                <div class="mt-6 flex flex-row align-items-start">
+                  <div class="requester-info flex justify-content-start g-0">
+                    <img
+                      src="assets/imgs/Frank.png"
+                      class="avatar mr-12 round"
+                    />
+                    <div class="small-bold blue">
+                      <span class="handle">Frank</span>
+                      <span class="dot"></span>
+                      <span class="rep-amt">4 SWR</span>
+                    </div>
+                  </div>
+                  <div class="offer-amt align-right">
+                    <div class="smallest-bold yellow">DAI</div>
+                    <div class="body-bold yellow">5</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
